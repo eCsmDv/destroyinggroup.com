@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    background-image: url("img/banner-cinza.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+.banner {
+    width: 15%;
+    padding: 90px;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 75px;    
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; 
+}
+
+footer img{
+    width: 5%;
+}
+
+footer p {
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    font-size: 20px;
+    margin: 146px;
+}
+
+
+@media screen and (max-width: 480px) {
+	
+    nav {
+		text-align: center;
+	}
+
+    .banner {
+        width: 45mm;
+        margin: 10px 0;    
+    }
+    
+    ul, .titulo-principal {
+		font-size: 40px;
+	}
+
+    footer p{
+        font-size: 14px;
+        margin: 70px;
+    }    
+    
+}

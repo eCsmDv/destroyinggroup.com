@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Contato - Destroying Group</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contato.css">
+        <link rel="icon" href="img/LogoDvECSM72x.png" type="img/image/png">
+    </head>
+    <body>
+        <header>
+            <div>
+                <img class="banner" src="img/LogoDvECSM.png">                    
+            </div>
+            <nav>    
+                <ul class="menu">
+                    <a href="home.html">Home</a>                       
+                    <a href="contato.html">Contato</a>
+                </ul>
+            </nav>            
+        </header>
+        <main class="caixa">
+            <form>
+                            <label for="nomecompleto">Nome Completo:</label>
+                            <input type="text" id="nomecompleto" class="input-padrão" required>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+                            
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" class="input-padrão" required placeholder="(xx) xxxxx-xxxx ">
+
+                            <label for="mensagem">Mensagem</label required>
+                            <textarea cols="72" rows="15" id="mensagem" class="input-padrão"></textarea>
+                <fieldset>
+                        <p>Como prefere nosso contato?</p>
+                            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> E-mail </label>
+                            
+                            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone </label>
+                            
+                            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp </label>                
+                </fieldset>
+                    <div>
+                        <p>Qual horário prefere ser atendido?</p>
+                            <select>
+                                <option>Manhã</option>
+                                <option>Tarde</option>
+                                <option>Noite</option>
+                            </select>
+                    </div>
+                            <label id="checkbox"><input type="checkbox"> Aceito receber e-mails com novidades e dicas sobre Segurança de Dados</label>
+                            <input id="enviar" type="submit" value="Enviar formulário" id="enviar">
+            </form>
+
+            <table class="funcionamento">
+                <thead>
+                        <tr>
+                            <th>Dia</th>                    
+                            <th>Horário</th>
+                        </tr>
+                </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda a Sexta</td>
+                            <td>Dás 9h às 22h</td>
+                        </tr>
+                        <tr>
+                            <td>Sábado e Domingo</td>
+                            <td>Dás 10h às 21h</td>
+                        </tr>                    
+                    </tbody>
+               </table>
+        </main>
+        <footer>
+            <ul>
+                <img src="img/LogoDvECSM.png"></a>
+            </ul>
+            <ul>
+                <a class="rodape">&copy; Copyright Destroying Group - 2017</a>
+            </ul>
+       </footer>  
+    </body>
+</html>

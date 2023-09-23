@@ -1,0 +1,196 @@
+body {
+    background-image: url("img/banner-cinza.png");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 30px auto; 
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 40px;    
+    font-size: 31px;
+}
+
+.banner {
+    display: inline-flex;
+    width: 10%;
+    margin: 6px 700px 6px;
+    padding: 0px; 
+}
+
+nav a {    
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, white, rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    background-position: left bottom;
+    cursor: pointer;
+    text-decoration: none;   
+}
+
+nav a:hover {
+    transition: 400ms ease;
+    font-size: 26px;    
+    background-size: 100% 4px;
+}
+
+nav a:active {    
+    color: rgb(216, 216, 216);
+}
+
+main {
+    float: center;
+}
+
+.produtos {
+    background-color: rgb(255, 250, 250);
+    text-align: center;
+    width: 90%;
+    margin: 10px auto;
+    padding: 30px 20px;
+    box-sizing: border-box;               
+    box-shadow: 10px 10px 20px 20px rgb(0, 0, 0);
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    padding: 25px 0;
+    margin: 0 1%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: rgb(216, 216, 216);   
+    transition: 400ms; 
+}
+
+.produtos li:hover{
+    font-size: 25px;    
+    transition: 400ms; 
+}
+
+.produtos li:active {
+    border-color: rgb(255, 255, 255);
+}
+
+.produtos h2 h3 h4 h5  {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos img {
+    width: 120px;
+    margin: 15px 0;
+}
+
+.produtos-descrição {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.produtos-preços {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;        
+    padding: 50px;
+}
+
+footer img{
+    width: 5%;
+    padding: 9mm 15mm;
+}
+
+footer ul a {
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+    margin: 20mm;    
+    border: 25mm;
+}
+
+@media screen and (max-width: 480px) {
+    div .banner {        
+        width: 55mm;
+        margin: 0 155mm;
+        padding: 10mm;     
+    }
+    
+    .menu {
+        width: 365mm;
+        text-align: center;
+        padding: 10mm;
+    }
+
+    h1 {
+        width: 360mm;
+        text-align: center;
+        padding: 10mm;
+    }
+
+    a {
+		width: center;
+        font-size: 15mm;
+	}
+
+	nav {
+		position: static;
+        font-size: 4mm;
+	}    
+
+    main {
+        width: 380mm;
+    }
+
+    .produtos li{
+        width: 75%;        
+    }
+
+    .produtos img{
+        width: 80mm;        
+    }  
+    
+    h2, h3, h4, h5 {
+        text-align: center;
+        font-size: 35mm;
+    }
+
+    .produtos-descrição { 
+        font-size: 15mm;
+    }
+
+    .produtos-preços {
+        font-size: 15mm;
+    }    
+
+    footer {
+        margin: 0 14mm;               
+        width: 290mm;
+        padding: 29mm;
+    }
+
+    footer img {
+        width: 35mm;
+        padding: 9mm;    
+    }
+
+    footer .rodape {     
+        font-size: 12mm;
+    }
+}
