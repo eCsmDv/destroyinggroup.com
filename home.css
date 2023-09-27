@@ -145,14 +145,14 @@ footer ul a {
     }
 
     a {
-		width: center;
+	width: center;
         font-size: 15mm;
-	}
+    }
 
-	nav {
-		position: static;
+    nav {
+        position: static;
         font-size: 4mm;
-	}    
+    }    
 
     main {
         width: 380mm;
