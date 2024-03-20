@@ -16,8 +16,8 @@ nav {
 }
 
 .banner {
-    display: inline-flex;
-    width: 10%;
+    display: inline-block;
+    width: 50%;
     margin: 6px 700px 6px;
     padding: 0px; 
 }
