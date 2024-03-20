@@ -133,6 +133,16 @@ footer ul a {
     border: 25mm;
 }
 
+.conteiner_icons {
+    text-align: right;
+}
+
+.icons {    
+    list-style-type: none;
+    text-decoration: none;    
+    margin: 10px;
+}
+
 @media screen and (max-width: 480px) {
     div .banner {        
         width: 55mm;
