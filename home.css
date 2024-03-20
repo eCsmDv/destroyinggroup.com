@@ -27,7 +27,7 @@ div, img {
 .banner {
     display: inline-flex;
     width: 10%;
-    padding: 0px; 
+    padding: 10px; 
 }
 
 nav a {    
