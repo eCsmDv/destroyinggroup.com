@@ -1,3 +1,8 @@
+*{  
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url("img/banner-cinza.png");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,10 +20,13 @@ nav {
     font-size: 31px;
 }
 
+div, img {
+    text-align: center;
+}
+
 .banner {
-    display: inline-block;
-    width: 50%;
-    margin: 6px 700px 6px;
+    display: inline-flex;
+    width: 10%;
     padding: 0px; 
 }
 
