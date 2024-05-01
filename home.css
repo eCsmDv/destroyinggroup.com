@@ -1,16 +1,25 @@
 *{  
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    text-rendering: optimizeLegibility;
 }
 
 body {
     background-image: url("img/banner-cinza.png");
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	min-height: 100vh;
+    background-size: cover;    
+    background-position: center;
 }
 
 header {
     width: 100%;
-    padding: 30px auto; 
+    padding: 30px auto;
+    height: 100vh;    
 }
 
 nav {
@@ -84,7 +93,7 @@ main {
     transition: 400ms; 
 }
 
-.produtos li:hover{
+.produtos li:hover {
     font-size: 25px;    
     transition: 400ms; 
 }
@@ -93,7 +102,7 @@ main {
     border-color: rgb(255, 255, 255);
 }
 
-.produtos h2 h3 h4 h5  {
+.produtos h2 h3 h4 h5 {
     font-size: 20px;
     font-weight: bold;
 }
@@ -124,7 +133,7 @@ footer {
 	text-decoration: none; 
 }
 
-footer img{
+footer img {
     width: 5%;
     padding: 9mm 15mm;
 }
@@ -147,7 +156,7 @@ footer ul a {
     margin: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     div .banner {        
         width: 55mm;
         margin: 0 155mm;
@@ -180,11 +189,11 @@ footer ul a {
         width: 380mm;
     }
 
-    .produtos li{
+    .produtos li {
         width: 75%;        
     }
 
-    .produtos img{
+    .produtos img {
         width: 80mm;        
     }  
     
