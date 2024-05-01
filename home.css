@@ -10,8 +10,7 @@ html{
 
 body {
     background-image: url("img/banner-cinza.png");
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;	
     background-size: cover;    
     background-position: center;
 }
